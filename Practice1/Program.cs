@@ -10,7 +10,7 @@ namespace Practice1
     {
         static void Main(string[] args)
         {
-            //111
+            Console.WriteLine("Hello GH");//проверка изменений
         }
     }
 }
