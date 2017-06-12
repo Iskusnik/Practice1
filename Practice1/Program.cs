@@ -29,7 +29,7 @@ public class Program
     {
 
         Int64 N;
-        /*
+        
                 StreamReader input = new StreamReader("input.txt");
                 StreamWriter output = new StreamWriter("output.txt");
 
@@ -55,16 +55,7 @@ public class Program
                 output.WriteLine(min);
 
                 input.Close();
-                output.Close();*/
-        N = Int64.Parse(Console.ReadLine());
-        Int64[] arr = new Int64[N];
-        for (int i = 0; i < arr.Length; i++) 
-            arr[i] = Int64.Parse(Console.ReadLine());
-        MyShellSort(ref arr);
-        Console.WriteLine();
-        for (int i = 0; i < arr.Length; i++)
-            Console.Write(arr[i] + " ");
-        Console.Read();
+                output.Close();
     }
 }
 
